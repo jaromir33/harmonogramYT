@@ -195,9 +195,11 @@
 
     .archive-opis {
       font-size: 0.85rem;
-      color: #e5e7eb;
+      /* Zamiast koloru wpisanego z ręki (#e5e7eb), używamy zmiennej Quartz */
+      color: var(--gray); 
+      line-height: 1.4;
     }
-
+	
     .archive-link {
       font-size: 0.85rem;
       font-weight: bold;
@@ -283,7 +285,7 @@
       line-height: 1.5; 
       flex-grow: 1; 
       margin-bottom: 1rem;
-      color: #e5e7eb; // Jasny kolor opisu dla czytelności
+      color: var(--darkgray);
     }
 
     .playlist-link {
