@@ -172,34 +172,30 @@
 
   .archive-item {
     display: grid;
-    /* 1. kolumna: 300px, 2. kolumna: reszta miejsca, 3. kolumna: szerokość linku */
     grid-template-columns: 300px 1fr auto;
     align-items: center;
     gap: 20px;
-    padding: 0.8rem 1.5rem;
-    background: rgba(255, 255, 255, 0.03); // Bardzo delikatne tło wiersza
+    padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.03); 
     border: 1px solid var(--lightgray);
     border-radius: 8px;
     transition: all 0.2s ease;
+    overflow: hidden; // Zapobiega wychodzeniu treści
 
     &:hover {
       border-color: var(--secondary);
-      transform: translateX(10px);
+      transform: translateX(5px);
       background: rgba(143, 159, 169, 0.1);
     }
 
     .archive-title {
       font-weight: bold;
-      color: var(--secondary); // Tytuł serii wyróżniony kolorem
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis; // Ucina tekst, jeśli seria ma bardzo długą nazwę
+      color: var(--secondary);
     }
 
     .archive-opis {
       font-size: 0.85rem;
-      color: #e5e7eb; // JASNY KOLOR - teraz widoczny na ciemnym tle
-      line-height: 1.4;
+      color: #e5e7eb;
     }
 
     .archive-link {
@@ -207,24 +203,41 @@
       font-weight: bold;
       color: var(--secondary) !important;
       white-space: nowrap;
-      
-      &:hover {
-        text-decoration: underline;
-      }
     }
   }
 }
 
-/* Responsywność dla Archiwum (na komórkach zmieniamy grid w listę pionową) */
+/* --- RESPONSYWNOŚĆ: NAPRAWA TŁA NA SMARTFONY --- */
 @media (max-width: 800px) {
   .archive-item {
-    grid-template-columns: 1fr;
-    gap: 8px;
-    
-    .archive-title { white-space: normal; }
-    .archive-link { align-self: flex-end; }
+    /* Zamieniamy grid na układ pionowy (flex) */
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 1.2rem;
+    width: 100%; // Wymuszamy dopasowanie do szerokości ekranu
+    box-sizing: border-box;
+
+    .archive-title {
+      white-space: normal; // Pozwalamy na zawijanie tekstu
+      font-size: 1.1rem;
+      width: 100%;
+    }
+
+    .archive-opis {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    .archive-link {
+      margin-left: 0;
+      align-self: flex-end; // Link ląduje w prawym dolnym rogu karty
+      padding: 5px 0;
+    }
   }
 }
+
 
 
 
