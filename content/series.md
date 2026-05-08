@@ -25,14 +25,14 @@ Poniżej znajdziesz aktualnie prowadzone serie. To tutaj najczęściej gości wi
 </div>
 
 <div class="series planned">
-  <h3>🔵 Planowane serie lub krótkie przeglądy gier.</h3>
-  <a href="planowane" class="playlist-link" target="_blank">Planowane →</a>
+  <h3>🔵 Planowane serie i krótkie przeglądy gier.</h3>
+  <a href="planowane" class="playlist-link">Planowane →</a>
 </div>
 
 <div class="series finished">
   <h3>⚫ Starsze serie</h3>
   <p>Zakończone historie – archiwum.</p>
-  <a href="archiwum" class="playlist-link" target="_blank">Archiwum serii →</a>
+  <a href="archiwum" class="playlist-link">Archiwum serii →</a>
 </div>
 
 </div>
