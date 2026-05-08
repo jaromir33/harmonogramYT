@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "☕ Na wiecznej pauzie",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -76,7 +76,13 @@ const config: QuartzConfig = {
     filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
+      Plugin.ContentPage({
+		  afterPageRoot: [
+          Component.GoogleAnalytics({
+            id: 'G-YK4VEC6BYE',
+	  }),
+	  ],
+	  }),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
