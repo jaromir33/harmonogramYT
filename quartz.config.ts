@@ -13,9 +13,10 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+	  tagId: 'G-YK4VEC6BYE',
     },
-    locale: "en-US",
+    locale: "pl-PL",
     baseUrl: "jaromir33.github.io/harmonogramYT",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -74,20 +75,12 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [Plugin.RemoveDrafts()],
-    emitters: [
+	emitters: [
       Plugin.ComponentResources(),
-      Plugin.ContentPage({
-		  afterPageRoot: [
-          Component.GoogleAnalytics({
-            id: 'G-YK4VEC6BYE',
-	  }),
-	  ],
-	  }),
+      Plugin.ContentPage(), 
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      // Plugin.CustomOgImages(),
     ],
   },
 }
