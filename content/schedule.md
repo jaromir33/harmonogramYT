@@ -44,11 +44,11 @@ title: Harmonogram parzenia kawy
   <td>Demokratyczne ruchy. cz.22 - Songs of Syx (PL), Garthimis i Amevias.</td>
   <td class="status-cell">🎬 Film</td>
 </tr>
-<tr class="type-film">
+<tr class="type-rzutoka">
   <td class="date-cell">16.05 sob.</td>
   <td>Oxygen Not Included</td>
   <td>A dokąd? A dokąd? A dokąd? Na wprost! NA NAS - Oxygen Not Included, cz.2 (PL)</td>
-  <td class="status-cell">🎬 Film</td>
+  <td class="status-cell">👁️ Rzut oka</td>
 </tr>
 <tr class="type-film">
   <td class="date-cell">17.05 niedz.</td>
