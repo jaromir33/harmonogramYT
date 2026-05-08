@@ -1,3 +1,348 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.hero {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.logo {
+  max-width: 120px;
+  margin-bottom: 1rem;
+}
+
+.yt-button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #4e342e; /* Kawowy brąz */
+  color: #ffffff !important;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  border: 1px solid #3e2723;
+
+  &:hover {
+    background: #5d4037; /* Jaśniejszy odcień kawy */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-color: var(--secondary); /* Ramka w kolorze motywu */
+  }
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* Stylistyka Serii */
+.series-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+
+  .series {
+    background: var(--light);
+    border: 1px solid var(--lightgray);
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column; // Układ pionowy elementów w karcie
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      border-color: var(--secondary);
+    }
+
+    h3 { margin-top: 0; }
+
+    p { 
+      flex-grow: 1; // Popycha link na sam dół karty
+      font-size: 0.9rem;
+      color: var(--darkgray);
+    }
+
+    .playlist-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: var(--secondary);
+      color: var(--light) !important;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      text-align: center;
+      transition: opacity 0.2s ease;
+
+      &:hover {
+        opacity: 0.9;
+      }
+
+      &.disabled {
+        background: var(--lightgray);
+        color: var(--gray) !important;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  // Kolory obramowań dla statusów
+  .active { border-left: 4px solid #2ecc71; }
+  .planned { border-left: 4px solid #3498db; }
+  .finished { border-left: 4px solid #7f8c8d; }
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* Stylistyka Harmonogramu J33 */
+
+.j33-description { 
+  margin-bottom: 2rem; 
+  line-height: 1.6; 
+  padding-left: 15px;
+  
+  p { margin: 0.5rem 0; }
+}
+
+.schedule-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  
+  &::-webkit-scrollbar { display: none; } // Ukrywa pasek na mobilkach, scroll działa dotykiem
+}
+
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+
+  tbody tr {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    border-left: 0 solid var(--secondary);
+
+    // BAZOWE KOLORY STATUSÓW (z silniejszym kontrastem)
+    &.type-live       { background-color: rgba(212, 137, 10, 0.12) !important; }
+    &.type-premiera   { background-color: rgba(147, 51, 234, 0.1) !important; }
+    &.type-rzutoka    { background-color: rgba(6, 182, 212, 0.1) !important; }
+    &.type-techniczne { background-color: rgba(100, 116, 139, 0.15) !important; }
+    &.type-ciekawostki{ background-color: rgba(234, 179, 8, 0.08) !important; }
+    &.type-film       { background-color: transparent; }
+
+    // SILNY EFEKT HOVER (Nadpisuje kolory statusów)
+    &:hover {
+      background-color: var(--secondary) !important; // Pełny kolor motywu przy najechaniu
+      transform: translateX(10px);
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+      
+      td { 
+        color: white !important; // Biały tekst na ciemnym hoverze dla kontrastu
+        border-bottom-color: transparent;
+      }
+      
+      .date-cell { color: rgba(255,255,255,0.8) !important; }
+    }
+  }
+
+  th {
+    background: var(--lightgray);
+    color: var(--dark);
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+  }
+  
+  td { padding: 14px 12px; border-bottom: 1px solid var(--lightgray); }
+  .date-cell { font-family: monospace; font-weight: bold; color: var(--secondary); }
+}
+
+
+
+/* ------------------------------------------------------------------------------------ */
+/* --- ARCHIWUM: --- */
+/* --- ARCHIWUM: UKŁAD TABELARYCZNY --- */
+.archive-container {
+  .archive-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 2rem;
+  }
+
+  .archive-item {
+    display: grid;
+    /* 1. kolumna: 300px, 2. kolumna: reszta miejsca, 3. kolumna: szerokość linku */
+    grid-template-columns: 300px 1fr auto;
+    align-items: center;
+    gap: 20px;
+    padding: 0.8rem 1.5rem;
+    background: rgba(255, 255, 255, 0.03); // Bardzo delikatne tło wiersza
+    border: 1px solid var(--lightgray);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      border-color: var(--secondary);
+      transform: translateX(10px);
+      background: rgba(143, 159, 169, 0.1);
+    }
+
+    .archive-title {
+      font-weight: bold;
+      color: var(--secondary); // Tytuł serii wyróżniony kolorem
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; // Ucina tekst, jeśli seria ma bardzo długą nazwę
+    }
+
+    .archive-opis {
+      font-size: 0.85rem;
+      color: #e5e7eb; // JASNY KOLOR - teraz widoczny na ciemnym tle
+      line-height: 1.4;
+    }
+
+    .archive-link {
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: var(--secondary) !important;
+      white-space: nowrap;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* Responsywność dla Archiwum (na komórkach zmieniamy grid w listę pionową) */
+@media (max-width: 800px) {
+  .archive-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    
+    .archive-title { white-space: normal; }
+    .archive-link { align-self: flex-end; }
+  }
+}
+
+
+
+/* ------------------------------------------------------------------------------------ */
+/* --- ONBOARDING: REKOMENDACJE --- */
+.onboarding-grid {
+  .onboarding-card {
+    background: var(--lightgray);
+    padding: 1.5rem;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent; // Rezerwacja miejsca na ramkę
+    border-bottom: 4px solid var(--secondary);
+    transition: all 0.2s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      background: var(--light); // Delikatna zmiana tła na jaśniejsze
+      border: 1px solid var(--secondary); // Pojawiająca się ramka wokół
+      border-bottom: 4px solid var(--secondary); // Zachowanie grubszego dołu
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    // Ikona kawy w rogu
+    .card-badge {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 1.2rem;
+      opacity: 0.5;
+    }
+
+    h4 { 
+      color: var(--secondary); 
+      margin-top: 0; 
+      padding-right: 25px; 
+    }
+    
+    p { 
+      font-size: 0.85rem; 
+      line-height: 1.5; 
+      flex-grow: 1; 
+      margin-bottom: 1rem;
+      color: #e5e7eb; // Jasny kolor opisu dla czytelności
+    }
+
+    .playlist-link {
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: var(--secondary) !important;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* ------------------------------------------------------------------------------------ */
+/* Stylistyka Planowanych serii */
+
+.planned-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.planned-item {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-left: 6px solid var(--gray);
+  transition: transform 0.2s;
+
+  &:hover { transform: scale(1.01); }
+
+  h3 { margin: 0 0 0.5rem 0; font-size: 1.2rem; display: flex; align-items: center; gap: 10px; }
+  
+  .badge {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  // Kolory dla statusów planowania
+  &.status-kampania { 
+    border-left-color: #6a1b9a; 
+    .badge { background: #6a1b9a; }
+  }
+  &.status-rzutoka { 
+    border-left-color: #00838f; 
+    .badge { background: #00838f; }
+  }
+  &.status-inne { 
+    border-left-color: #455a64; 
+    .badge { background: #455a64; }
+  }
+}
+
+
+
+/* ------------------------------------------------------------------------------------ */
+/* Responsywność dla telefonów */
+@media (max-width: 600px) {
+  .archive-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    .archive-link {
+      align-self: flex-end;
+    }
+  }
+}
