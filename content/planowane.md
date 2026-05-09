@@ -9,9 +9,9 @@ Gry, które znajdują się w mojej "poczekalni". Zastanawiam się nad nimi przy 
   <div class="planned-item status-kampania">
     <div class="planned-header">
       <span class="badge">Pełnowymiarowa Kampania</span>
-      <h3>Xenonauts w wersji 1.0 </h3>
+      <h3>Ostranauts </h3>
     </div>
-    <p>Pełnowymiarowa seria skupiona na walce z Obcymi.</p>
+    <p>Gra we wczesnym dostępie nadal, ale z ciekawym uaktualnieniem "Fire in the Hold", który daje m.in. możliwość walki kosmicznej oraz wydobywania rud z asteroid.</p>
   </div>
 
   <div class="planned-item status-rzutoka">

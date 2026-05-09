@@ -41,7 +41,7 @@ rows.forEach(line => {
   const statusIcons = {
     "live": "🔴 Live",
     "premiera": "💎 Premiera",
-    "film": "🎬 Film",
+    "film": "🎬 Seria",
     "short": "📱 Short",
 	"rzutoka": "👁️ Rzut oka",
 	"techniczne": "🔧 Techniczne",
