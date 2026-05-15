@@ -17,10 +17,10 @@ Gry, które znajdują się w mojej "poczekalni". Zastanawiam się nad nimi przy 
   <div class="planned-item status-rzutoka">
     <div class="planned-header">
       <span class="badge">Rzut Oka</span>
-      <h3>Oxygen Not Included</h3>
+      <h3>Battlestar Galactica: Scattered Hopes</h3>
     </div>
-    <p>Naszym głównym problemem będzie kataklizm związany ze zbliżającą się asteroidą.</p>
-  </div>
+    <p>Battlestar Galactica: Scattered Hopes to strategia roguelite, w której każda decyzja może oznaczać koniec naszej floty.</p>
+  </div>  
 </div>
 
 
