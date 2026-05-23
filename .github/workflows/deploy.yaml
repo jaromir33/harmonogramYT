@@ -3,7 +3,7 @@ name: Deploy Quartz to GitHub Pages
 on:
   push:
     branches: [main]
-  workflow_dispatch:          # możliwość ręcznego uruchomienia z UI GitHub
+  workflow_dispatch:          # możliwość ręcznego uruchomienia z UI GitHub 
 
 jobs:
   build:
