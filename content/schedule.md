@@ -33,11 +33,11 @@ tags: []
   <td>XCOM 2 WOTC + mody [PL], cz.64 - czacha dymi.</td>
   <td class="status-cell">🎬 Seria</td>
 </tr>
-<tr class="type-ciekawostka">
+<tr class="type-ciekawostki">
   <td class="date-cell">02.06 wt.</td>
   <td>Ciekawostki</td>
   <td>Moje lokalne AI próbuje ogarnąć Shadow Empire.</td>
-  <td class="status-cell">🎬 Film</td>
+  <td class="status-cell">💡 Ciekawostka</td>
 </tr>
 <tr class="type-rzutoka">
   <td class="date-cell">03.06 śr.</td>
