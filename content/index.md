@@ -1,5 +1,5 @@
 ---
-title: ☕ Na wiecznej pauzie
+title: ☕ Na wiecznej pauzie 
 ---
 
 <div class="hero">
@@ -47,4 +47,7 @@ Jeśli jesteś tu nowy, te serie najlepiej oddają spokojny, analityczny charakt
 ## 🎮 Serie
 
 ![[series]]
+
+## 🎮 Eksperymentalne streszczenia AI
+[🪐 Seria Shadow Empire](/ShadowEmpireRepublica/)
 

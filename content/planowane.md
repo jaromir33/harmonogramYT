@@ -14,6 +14,7 @@ Gry, które znajdują się w mojej "poczekalni". Zastanawiam się nad nimi przy 
     <p>Gra we wczesnym dostępie nadal, ale z ciekawym uaktualnieniem "Fire in the Hold", który daje m.in. możliwość walki kosmicznej oraz wydobywania rud z asteroid.</p>
   </div>
 
+
 </div>
 
 
