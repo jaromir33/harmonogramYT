@@ -1,5 +1,5 @@
 ---
-title: 📜 Kronika Rozgrywek (Archiwum)
+title: 📜 Kronika Rozgrywek (Archiwum - tylko pełne serie)
 ---
 
 <div class="archive-container">
