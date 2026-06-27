@@ -7,7 +7,7 @@ tags: []
   <p>☕ <strong>Nowe odcinki</strong> zazwyczaj pojawiają się o 16:00.</p>
   <p>🔴 <strong>Na żywo:</strong> Transmisje LIVE ogłaszam w zakładce Społeczność.</p>
   <p style="font-size:0.85em;opacity:0.7;"><em>Plan to tylko zarys — czasem taktyka wymaga korekty w trakcie tury.</em></p>
-  <p style="font-size:0.8em;opacity:0.5;">Ostatnia aktualizacja: 13.06.2026</p>
+  <p style="font-size:0.8em;opacity:0.5;">Ostatnia aktualizacja: 27.06.2026</p>
 </div>
 
 <table class="schedule">
@@ -15,64 +15,58 @@ tags: []
   <tr><th>Data</th><th>Seria</th><th>Odcinek</th><th>Typ</th></tr>
 </thead>
 <tbody>
-<tr class="type-film">
-  <td class="date-cell">13.06 sob.</td>
-  <td>Shadow Empire: Republica DLC</td>
-  <td>Shadow Empire: Republica DLC, cz.21 - kampania północna (walki o Lancaster).</td>
-  <td class="status-cell">🎬 Seria</td>
-</tr>
 <tr class="type-rzutoka">
-  <td class="date-cell">14.06 niedz.</td>
-  <td>Romestead</td>
-  <td>Sposób na bosa oraz najazd garncarzy - Romestead, cz.3</td>
+  <td class="date-cell">27.06 sob.</td>
+  <td>Star Trek: Nieznane Placówki</td>
+  <td>STAR TREK jako City-Builder?! #2| Star Trek: Nieznane Placówki [DEMO]</td>
   <td class="status-cell">👁️ Rzut oka</td>
 </tr>
 <tr class="type-film">
-  <td class="date-cell">15.06 pon.</td>
+  <td class="date-cell">28.06 niedz.</td>
+  <td>Songs of Syx (PL)</td>
+  <td>Czy mroczne Elfy (Tilapi) pasują do rządów terroru w Songs of Syx | REIGN OF TERROR #1</td>
+  <td class="status-cell">🎬 Seria</td>
+</tr>
+<tr class="type-film">
+  <td class="date-cell">29.06 pon.</td>
   <td>XCOM 2 WOTC + mody [PL]</td>
-  <td>XCOM 2 WOTC + mody [PL], cz.66 - zabił mojego węża.</td>
+  <td>XCOM 2 WOTC + mody [PL], cz.68 - trochę zbugowana misja.</td>
   <td class="status-cell">🎬 Seria</td>
 </tr>
-<tr class="type-live">
-  <td class="date-cell">15.06 pon.</td>
-  <td>Stellaris Nomads DLC</td>
-  <td>Stellaris Nomads - sprawdzamy nowe DLC (live pewny tak na 60%)</td>
-  <td class="status-cell">🔴 Live</td>
-</tr>
 <tr class="type-film">
-  <td class="date-cell">16.06 wt.</td>
+  <td class="date-cell">30.06 wt.</td>
   <td>Shadow Empire: Republica DLC</td>
-  <td>Shadow Empire: Republica DLC, cz.22 - reorganizacja wojsk.</td>
+  <td>Shadow Empire: Republica DLC, cz.26 - trudna obrona.</td>
   <td class="status-cell">🎬 Seria</td>
 </tr>
 <tr class="type-rzutoka">
-  <td class="date-cell">17.06 śr.</td>
-  <td>Romestead</td>
-  <td>Wyprawa na grzyby oraz rozbudowa miasta - Romestead, cz.4</td>
+  <td class="date-cell">01.07 śr.</td>
+  <td>Brave New Wonders</td>
+  <td>Ciekawa strategia, w której automaty rozumieją polecenia tekstowe | Brave New Wonders (Demo, cz.1)</td>
   <td class="status-cell">👁️ Rzut oka</td>
 </tr>
 <tr class="type-film">
-  <td class="date-cell">18.06 czw.</td>
+  <td class="date-cell">02.07 czw.</td>
+  <td>Shadow Empire: Republica DLC</td>
+  <td>Shadow Empire: Republica DLC, cz.27 - zmasowany atak wroga i rebelianci.</td>
+  <td class="status-cell">🎬 Seria</td>
+</tr>
+<tr class="type-film">
+  <td class="date-cell">03.07 pt.</td>
   <td>Songs of Syx (PL)</td>
-  <td>Dyby, lochy i BHP. cz.30 - Songs of Syx (PL), Garthimis i Amevias.</td>
+  <td>Gdzie są jabłka? To skandal, że ich nie ma. Songs of Syx | REIGN OF TERROR #2</td>
   <td class="status-cell">🎬 Seria</td>
 </tr>
 <tr class="type-rzutoka">
-  <td class="date-cell">19.06 pt.</td>
-  <td>Romestead</td>
-  <td>Logistyka, Mury oraz drogi - Romestead, cz.5</td>
+  <td class="date-cell">04.07 sob.</td>
+  <td>Brave New Wonders</td>
+  <td>Eksploracja ruin i co z niej wynika | Brave New Wonders (Demo, cz.2)</td>
   <td class="status-cell">👁️ Rzut oka</td>
 </tr>
 <tr class="type-film">
-  <td class="date-cell">20.06 sob.</td>
-  <td>Shadow Empire: Republica DLC</td>
-  <td>Shadow Empire: Republica DLC, cz.23 - buuum.</td>
-  <td class="status-cell">🎬 Seria</td>
-</tr>
-<tr class="type-film">
-  <td class="date-cell">21.06 niedz.</td>
+  <td class="date-cell">05.07 niedz.</td>
   <td>Songs of Syx (PL)</td>
-  <td>Dramatyczny wypadek i obłąkanie. cz.31 - Songs of Syx (PL), Garthimis i Amevias.</td>
+  <td>Ale jaja oraz rozbudowa miasta. Songs of Syx | REIGN OF TERROR #3</td>
   <td class="status-cell">🎬 Seria</td>
 </tr>
 </tbody></table>
