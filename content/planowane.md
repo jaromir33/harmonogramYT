@@ -23,16 +23,5 @@ Gry, które znajdują się w mojej "poczekalni". Zastanawiam się nad nimi przy 
   </div>
 
 </div>
-<div class="planned-list">
-  <div class="planned-item status-rzutoka">
-    <div class="planned-header">
-      <span class="badge">Rzut oka</span>
-      <h3>Lonestar </h3>
-    </div>
-    <p>Wciągająca, taktyczna gra roguelike osadzona w klimatach science-fiction, w której wcielamy się w kosmicznego łowcę nagród.</p>
-  </div>
-
-</div>
-
 
 </div>
