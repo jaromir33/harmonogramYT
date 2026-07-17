@@ -23,6 +23,7 @@ const STATUS_ICONS = {
   "rzutoka":     "👁️ Rzut oka",
   "techniczne":  "🔧 Techniczne",
   "ciekawostki": "💡 Ciekawostka",
+  "przerwa": "🏖️ Przerwa",
 };
 
 // ── Parser CSV ────────────────────────────────────────────────────────────────
