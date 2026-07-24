@@ -24,6 +24,13 @@ Poniżej znajdziesz aktualnie prowadzone serie. To tutaj najczęściej gości wi
   <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5dIUGZXCa7aLtRT-X5KdejQ" class="playlist-link" target="_blank">Obejrzyj playlistę →</a>
 </div>
 
+<div class="series active">
+  <h3>🟢 Oxygen Not Included, DLC Aquatic Planet Pack</h3>
+  <p>Lądujemy na asteroidzie pełnej nowych surowców: rafy koralowe, lasy wodorostów i gigantyczne małże. Na szczęście nasi duplikanci potrafią pływać (przynajmniej niektórzy).</p>
+  <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5cXj3BF3GBszl6fjo6yMYI_" class="playlist-link" target="_blank">Obejrzyj playlistę →</a>
+</div>
+
+
 <div class="series planned">
   <h3>🔵 Planowane serie i krótkie przeglądy gier.</h3>
   <a href="planowane" class="playlist-link">Planowane →</a>
