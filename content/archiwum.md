@@ -83,6 +83,11 @@ Historia minionych kampanii, wielkich imperiów stworzonych na wiecznej pauzie i
   <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5dItKR6A7rgtdS2KamzfpgW" class="archive-link" target="_blank">Obejrzyj serię →</a>
 </div>
 
+<div class="archive-item">
+  <span class="archive-title">Songs of Syx</span>
+  <span class="archive-opis">Strategia fantasy, łącząca w sobie ogromną skalę city-buildera z niezwykle głęboką symulacją życia każdego mieszkańca. Próbujemy zbudować jedno państwo z dwóch zupełnie różnych ras: Garthimi i Amevi.</span>
+  <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5fQ0EVsY5hngGNlud40J4Te" class="archive-link" target="_blank">Obejrzyj serię →</a>
+</div>
 
 </div>
 </div>
