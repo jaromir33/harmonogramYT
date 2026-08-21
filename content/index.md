@@ -1,5 +1,5 @@
 ---
-title: ☕ Na wiecznej pauzie
+title: ☕ Na wiecznej pauzie. 
 ---
 
 <div class="hero">
@@ -27,6 +27,14 @@ Jeśli jesteś tu nowy, te serie najlepiej oddają spokojny, analityczny charakt
     <p><strong>Stellaris 4.0 (DLC: Biogenesis):</strong> Idealna seria do powolnej optymalizacji imperium przy wiecznej pauzie.</p>
     <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5fng3kBtzwIaSGqG9cbC_I9" class="playlist-link" target="_blank">Otwórz playlistę →</a>
   </div>
+
+  <div class="onboarding-card">
+    <div class="card-badge">☕</div>
+    <h4>Bardzo powolne parzenie (Strategia)</h4>
+    <p><strong>Shadow Empire, Republica DLC:</strong> Skomplikowana strategia wojenna.</p>
+    <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5dIUGZXCa7aLtRT-X5KdejQ" class="playlist-link" target="_blank">Otwórz playlistę →</a>
+  </div>
+
 
   <div class="onboarding-card">
     <div class="card-badge">☕</div>
