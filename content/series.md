@@ -13,9 +13,9 @@ Poniżej znajdziesz aktualnie prowadzone serie. To tutaj najczęściej gości wi
 </div>
 
 <div class="series active">
-  <h3>🟢 Shadow Empire, Republica DLC</h3>
-  <p>Shadow Empire z nowym dodatkiem Republica. Tym razem może nie będzie zagrożenia w postaci olbrzymich czerwonych szczurów, ale wyzwaniem będzie polityka i nowe warstwy zarządzania.</p>
-  <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5dIUGZXCa7aLtRT-X5KdejQ" class="playlist-link" target="_blank">Obejrzyj playlistę →</a>
+  <h3>🟢 Star Wars: Zero Company</h3>
+  <p>Zaczynamy przygodę w grze 🎮 Star Wars: Zero Company — od zera. A do czego dojdziemy - oglądajcie to zobaczycie :-) </p>
+  <a href="https://www.youtube.com/playlist?list=PLOdeXIZN8EHw" class="playlist-link" target="_blank">Obejrzyj playlistę →</a>
 </div>
 
 <div class="series active">
