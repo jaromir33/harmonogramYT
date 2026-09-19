@@ -7,7 +7,7 @@ tags: []
   <p>☕ <strong>Nowe odcinki</strong> zazwyczaj pojawiają się o 16:00.</p>
   <p>🔴 <strong>Na żywo:</strong> Transmisje LIVE ogłaszam w zakładce Społeczność.</p>
   <p style="font-size:0.85em;opacity:0.7;"><em>Plan to tylko zarys — czasem taktyka wymaga korekty w trakcie tury.</em></p>
-  <p style="font-size:0.8em;opacity:0.5;">Ostatnia aktualizacja: 18.09.2026</p>
+  <p style="font-size:0.8em;opacity:0.5;">Ostatnia aktualizacja: 19.09.2026</p>
 </div>
 
 <table class="schedule">
@@ -27,11 +27,11 @@ tags: []
   <td>Porządek w bazie i dostarczamy towar - Scrap Mechanic [PL], #9</td>
   <td class="status-cell">👁️ Rzut oka</td>
 </tr>
-<tr class="type-przerwa">
+<tr class="type-film">
   <td class="date-cell">20.09 niedz.</td>
-  <td></td>
-  <td></td>
-  <td class="status-cell">🏖️ Przerwa</td>
+  <td>ENDLESS Legend 2</td>
+  <td>Niebezpieczna sytuacja - cz.2 | ENDLESS Legend 2</td>
+  <td class="status-cell">🎬 Seria</td>
 </tr>
 <tr class="type-film">
   <td class="date-cell">21.09 pon.</td>
