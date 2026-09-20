@@ -7,7 +7,7 @@ tags: []
   <p>☕ <strong>Nowe odcinki</strong> zazwyczaj pojawiają się o 16:00.</p>
   <p>🔴 <strong>Na żywo:</strong> Transmisje LIVE ogłaszam w zakładce Społeczność.</p>
   <p style="font-size:0.85em;opacity:0.7;"><em>Plan to tylko zarys — czasem taktyka wymaga korekty w trakcie tury.</em></p>
-  <p style="font-size:0.8em;opacity:0.5;">Ostatnia aktualizacja: 19.09.2026</p>
+  <p style="font-size:0.8em;opacity:0.5;">Ostatnia aktualizacja: 20.09.2026</p>
 </div>
 
 <table class="schedule">
@@ -57,11 +57,11 @@ tags: []
   <td>Skąd wziąć dobrą wodę i co jest z tymi maskami? | Oxygen Not Included: Aquatic Planet Pack, cz.13</td>
   <td class="status-cell">🎬 Seria</td>
 </tr>
-<tr class="type-rzutoka">
+<tr class="type-film">
   <td class="date-cell">25.09 pt.</td>
   <td>ENDLESS Legend 2</td>
-  <td>(jak zdążę nagrać to ENDLESS Legend 2)</td>
-  <td class="status-cell">👁️ Rzut oka</td>
+  <td>Kontratak - cz.3 | ENDLESS Legend 2</td>
+  <td class="status-cell">🎬 Seria</td>
 </tr>
 <tr class="type-film">
   <td class="date-cell">26.09 sob.</td>
