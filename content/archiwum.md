@@ -95,5 +95,11 @@ Historia minionych kampanii, wielkich imperiów stworzonych na wiecznej pauzie i
   <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5dIUGZXCa7aLtRT-X5KdejQ" class="archive-link" target="_blank">Obejrzyj serię →</a>
 </div>
 
+<div class="archive-item">
+  <span class="archive-title">Oxygen Not Included, DLC Aquatic Planet Pack</span>
+  <span class="archive-opis">Lądujemy na asteroidzie pełnej nowych surowców: rafy koralowe, lasy wodorostów i gigantyczne małże. Na szczęście nasi duplikanci potrafią pływać (przynajmniej niektórzy).</span>
+  <a href="https://www.youtube.com/playlist?list=PLZqlAAA7pt5cXj3BF3GBszl6fjo6yMYI_" class="archive-link" target="_blank">Obejrzyj serię →</a>
+</div>
+
 </div>
 </div>
