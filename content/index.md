@@ -1,5 +1,5 @@
 ---
-title: ☕ Na wiecznej pauzie.
+title: ☕ Na wiecznej pauzie 
 ---
 
 <div class="hero">
